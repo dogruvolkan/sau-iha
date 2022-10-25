@@ -55,12 +55,7 @@ const Header = () => {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <Link className="dropdown-item" to="team1">
-                      Poyraz
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="team2">
+                    <Link className="dropdown-item" to="sancaktar">
                       Sancaktar
                     </Link>
                   </li>

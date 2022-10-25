@@ -4,8 +4,7 @@ import Header from "./Layouts/Header";
 import Home from "./pages/Home";
 import Management from "./pages/Management";
 import Galery from "./pages/Galery";
-import Team1 from "./pages/Team1";
-import Team2 from "./pages/Team2";
+import Sancaktar from "./pages/Sancaktar";
 import Footer from "./Layouts/Footer";
 
 function App() {
@@ -16,8 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="management" element={<Management />} />
         <Route path="galery" element={<Galery />}></Route>
-        <Route path="team1" element={<Team1 />} />
-        <Route path="team2" element={<Team2 />}></Route>
+        <Route path="sancaktar" element={<Sancaktar />} />
       </Routes>
       <Footer />
     </>

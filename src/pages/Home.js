@@ -7,6 +7,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Redbull from "../Assets/Images/Sponsor/redbull.png";
 import British from "../Assets/Images/Sponsor/british.png";
+import Teknokent from "../Assets/Images/Sponsor/teknokent.png"
 
 const Home = () => {
   return (
@@ -163,6 +164,11 @@ const Home = () => {
             <div className="item">
               <div className="card">
                 <img src={British} alt="british-culture"/>
+              </div>
+            </div>
+            <div className="item">
+              <div className="card">
+                <img src={Teknokent} alt="teknokent"/>
               </div>
             </div>
           </OwlCarousel>

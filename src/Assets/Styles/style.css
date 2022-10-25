@@ -246,8 +246,6 @@
     border-radius: 4px;
 }
 
-
-
 .card-1 {
     display: flex;
     justify-content: center;
@@ -326,4 +324,15 @@
     margin-top: 90px;
     margin-bottom: 100px;
     padding: 20px;
+}
+
+
+/* sancaktar */
+
+.sancaktar {
+    margin:150px 0;
+}
+
+.sancaktar img{
+    width:450px;
 }

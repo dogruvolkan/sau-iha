@@ -19,15 +19,36 @@ import Img16 from "../Assets/Images/Galery/16.jpg";
 import Img17 from "../Assets/Images/Galery/17.jpg";
 import Img18 from "../Assets/Images/Galery/18.jpg";
 import Img19 from "../Assets/Images/Galery/19.jpg";
+import Img20 from "../Assets/Images/Galery/20.jpg";
+import Img21 from "../Assets/Images/Galery/21.jpg";
 
-const images = [Img1, Img2, Img3,Img4, Img5, Img6,Img7, Img8, Img9 , Img10, Img11 , Img12 , Img13, Img14, Img15 , Img16 , Img17, Img18 , Img19 ];
+const images = [
+  Img1,
+  Img2,
+  Img3,
+  Img4,
+  Img5,
+  Img6,
+  Img7,
+  Img8,
+  Img9,
+  Img10,
+  Img11,
+  Img12,
+  Img13,
+  Img14,
+  Img15,
+  Img16,
+  Img17,
+  Img18,
+  Img19,
+  Img20,
+  Img21,
+];
 
 const Galery = () => {
- 
   return (
     <>
-     
-
       <div className="galery">
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
           <Masonry gutter="20px">
